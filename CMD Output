@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.26100.8457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Kaveti Rahul>cd Desktop\ImageEncryptionProject
+
+C:\Users\Kaveti Rahul\Desktop\ImageEncryptionProject>dir
+ Volume in drive C is OS
+ Volume Serial Number is 7A8C-D3C5
+
+ Directory of C:\Users\Kaveti Rahul\Desktop\ImageEncryptionProject
+
+13-06-2026  19:57    <DIR>          .
+13-06-2026  19:30    <DIR>          ..
+13-06-2026  19:58             1,335 image_encrypt.py.txt
+13-06-2026  19:57           404,403 input.jpg.png
+               2 File(s)        405,738 bytes
+               2 Dir(s)  426,982,936,576 bytes free
+
+C:\Users\Kaveti Rahul\Desktop\ImageEncryptionProject>python image_encrypt.py.txt
+Enter encryption key (0-255): 50
+Encrypted image saved as encrypted.jpg
+Decrypted image saved as decrypted.jpg
+Process completed successfully!
+
+C:\Users\Kaveti Rahul\Desktop\ImageEncryptionProject>
